@@ -3,6 +3,7 @@ import {Row, Container, Col, Button } from 'react-bootstrap'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Grophers from "../assets/img/grophers.png"
+import Fithub from "../assets/img/Fithub.png"
 import Sauhaarddotcom from "../assets/img/sauhaarddotcom.png"
 import dotNet from "../assets/img/dotNet.png"
 import FilesizeCompressor from "../assets/img/FilesizeCompressor.png"
@@ -42,11 +43,11 @@ export const Projects = () => {
                             </p>
                             <Carousel responsive={responsive} infinte={true} className="projects-slider">
                                 <div className="projectsItem">
-                                    <img src={Grophers} alt="Image" className='projectsPics'/>
-                                    <h4 className='projectName'>Grophers Android App: Java, XML and Mockito</h4>
+                                    <img src={Fithub} alt="Image" className='projectsPics'/>
+                                    <h4 className='projectName'>Fithub Fitness Application: MongoDB, React.js, Node.js</h4>
                                     <div className='buttonsItem'>
-                                    <Button href="https://youtu.be/rlAjKzWbuzs" variant="primary" size="lg" className='projectButton'>Demo</Button>
-                                    <Button href="https://github.com/andrewpriority/b07project" variant="primary" size="lg" className='projectButton'>Code</Button>
+                                    <Button href="https://youtu.be/UwDtg5oIe2k" variant="primary" size="lg" className='projectButton'>Demo</Button>
+                                    <Button href="https://github.com/SauhaardW/FitHub" variant="primary" size="lg" className='projectButton'>Code</Button>
                                     </div>
                                 </div>
                                 <div className="projectsItem">
@@ -54,7 +55,15 @@ export const Projects = () => {
                                     <h4 className='projectName'>Assignment Tracker: Vue.js, .NET Core and MongoDB</h4>
                                     <div className='buttonsItem'>
                                     <Button href="https://youtu.be/Uo_QK5Ek0fY" variant="primary" size="lg" className='projectButton'>Demo</Button>
-                                    <Button href="#" variant="primary" size="lg" className='projectButton'>Code</Button>
+                                    <Button href="https://github.com/SauhaardW/Assignment-Tracker" variant="primary" size="lg" className='projectButton'>Code</Button>
+                                    </div>
+                                </div>
+                                <div className="projectsItem">
+                                    <img src={Grophers} alt="Image" className='projectsPics'/>
+                                    <h4 className='projectName'>Grophers Android App: Java, XML and Mockito</h4>
+                                    <div className='buttonsItem'>
+                                    <Button href="https://youtu.be/rlAjKzWbuzs" variant="primary" size="lg" className='projectButton'>Demo</Button>
+                                    <Button href="https://github.com/SauhaardW/Grophers" variant="primary" size="lg" className='projectButton'>Code</Button>
                                     </div>
                                 </div>
                                 <div className="projectsItem">
@@ -62,7 +71,7 @@ export const Projects = () => {
                                     <h4 className='projectName'>Sauhaard.com: React.js, Bootstrap, Email.js</h4>
                                     <div className='buttonsItem'>
                                     <Button href="https://youtu.be/kCulApSuQu4" variant="primary" size="lg" className='projectButton'>Demo</Button>
-                                    <Button href="#" variant="primary" size="lg" className='projectButton'>Code</Button>
+                                    <Button href="https://github.com/SauhaardW/Personal-Portfolio" variant="primary" size="lg" className='projectButton'>Code</Button>
                                     </div>
                                 </div>
                                 <div className="projectsItem">
